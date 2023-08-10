@@ -1,5 +1,8 @@
 import { createApp } from "vue";
-import "./styles.css";
+import "@/assets/styles/index.scss";
+import router from "./router";
 import App from "./App.vue";
+import { createPinia } from "pinia";
+import "element-plus/theme-chalk/dark/css-vars.css";
 
-createApp(App).mount("#app");
+createApp(App).use(router).use(createPinia()).mount("#app");

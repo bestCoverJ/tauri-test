@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="app-container">
     <router-view />
   </div>
 </template>
@@ -10,11 +10,8 @@
 </script>
 
 <style scoped>
-.logo.vite:hover {
-  filter: drop-shadow(0 0 2em #747bff);
-}
-
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #249b73);
+.app-container {
+  display: flex;
+  height: 100vh;
 }
 </style>

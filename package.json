@@ -12,6 +12,7 @@
   "dependencies": {
     "@tauri-apps/api": "^1.2.0",
     "@vueuse/core": "^10.3.0",
+    "axios": "^1.4.0",
     "element-plus": "^2.3.9",
     "pinia": "2.0.35",
     "sass": "^1.65.1",
